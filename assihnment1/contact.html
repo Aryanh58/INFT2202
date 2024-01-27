@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+
+    <!-- External stylesheets for Bootstrap and Font Awesome -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="./contents/app.css">
+</head>
+<body class="bodyColor">
+<!-- Header section containing the navigation bar -->
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid navbarContents">
+            <!-- Brand/logo and toggle button for small screens -->
+            <a class="navbar-brand" href="./index.html"><i class="fa-solid fa-users-rectangle"></i>Harmony Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation links -->
+            <div class="navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="home.html"><i class="fa-solid fa-house"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html"><i class="fa-solid fa-user-tie"></i>Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="services.html"><i class="fa-brands fa-servicestack"></i>Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html"><i class="fa-brands fa-blogger"></i>Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html"><i class="fa-solid fa-people-group"></i>Team</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Main content section with a form for leaving a message -->
+<div class="container">
+    <h3 class="contact-heading">Leave a Message for us!</h3>
+    <form>
+        <!-- Full Name input field -->
+        <div class="mb-3">
+            <label for="fullName" class="form-label">Full Name</label>
+            <input type="text" class="form-control w-25" id="fullName" aria-describedby="emailHelp">
+        </div>
+
+        <!-- Email Address input field -->
+        <div class="mb-3">
+            <label for="emailAddress" class="form-label">Email Address</label>
+            <input type="email" class="form-control w-25 " id="emailAddress">
+        </div>
+
+        <!-- Message textarea -->
+        <div class="">
+            <label for="message" class="form-label">Message</label>
+            <textarea type="text" class="form-control w-25 p-5 " id="message"></textarea>
+        </div>
+
+        <!-- Checkbox for subscribing to the newsletter -->
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="newsCheckBox">
+            <label class="form-check-label" for="newsCheckBox">Subscribe me to the newsletter</label>
+        </div>
+
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<!-- External scripts for jQuery, Bootstrap, and custom scripts -->
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./scripts/main.js"></script>
+</body>
+</html>
