@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+
+    <!-- External stylesheets for Bootstrap and Font Awesome -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="./contents/app.css">
+</head>
+<body class="bodyColor">
+<!-- Header section containing the navigation bar -->
+<header>
+
+</header>
+
+<!-- Main content section with slideshow and introductory content -->
+<main>
+    <div id="HomeMessageArea"></div>
+    <div class="slideshow-container">
+        <!-- Slides with images -->
+        <img class="active" src="./images/welcomeaboard/logo-png.png" alt="Slide 1">
+        <img src="./images/welcomeaboard/exhibhita.jpg" alt="Slide 2">
+        <img src="./images/welcomeaboard/exhibhitb.jpg" alt="Slide 3">
+
+
+        <!-- Content for the home page -->
+        <div class="homePageContent">
+            <h3 class="project-card-heading">Welcome Aboard!</h3>
+            <p>
+                Discover a vibrant community center where technology meets community service. At Harmony Hub, we offer a range of services and activities for people of all ages and backgrounds. Explore our interactive portal showcasing classes, events, workshops, and community projects. Join us and be a part of positive change!
+            </p>
+        </div>
+
+        <!-- Explore More button -->
+        <div class="exploreButton">
+            <button class="btn btn-primary" type="submit" id="exploreButton">Explore More</button>
+        </div>
+    </div>
+</main>
+
+<!-- Footer section -->
+<footer id="footer"></footer>
+
+<!-- External scripts for jQuery, Bootstrap, and custom scripts -->
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./scripts/app.js"></script>
+</body>
+</html>

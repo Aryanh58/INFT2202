@@ -1,0 +1,19 @@
+{
+  "events": [
+    {
+      "title": "Community Picnic",
+      "description": "Join us for a fun-filled day at the park with games, food, and entertainment.",
+      "date": "2024-03-15"
+    },
+    {
+      "title": "Volunteer Cleanup Day",
+      "description": "Help clean up our community by volunteering for this cleanup event.",
+      "date": "2024-04-10"
+    },
+    {
+      "title": "Tech Workshop for Seniors",
+      "description": "Learn how to use smartphones and computers at our free workshop for seniors.",
+      "date": "2024-05-20"
+    }
+  ]
+}

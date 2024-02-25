@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta information -->
+    <meta charset="UTF-8">
+    <title>Contact</title>
+
+    <!-- External stylesheets for Bootstrap and Font Awesome -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="./contents/app.css">
+</head>
+<body class="bodyColor">
+<!-- Header section containing the navigation bar -->
+<header>
+    <!-- Header content can be added here -->
+</header>
+
+<!-- Main content section with a form for leaving a message -->
+<div class="container">
+
+    <h3 class="contact-heading">Leave a Message for us!</h3>
+    <div class="row">
+        <form id="contactForm">
+            <!-- Full Name Input -->
+            <div class="mb-3">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input type="text" class="form-control w-25" id="fullName" aria-describedby="fullName">
+            </div>
+
+            <!-- Contact Number Input -->
+            <div class="mb-3">
+                <label for="contactNumber" class="form-label">Contact Number</label>
+                <input type="text" class="form-control w-25" id="contactNumber" aria-describedby="contactNumber">
+            </div>
+
+            <!-- Email Address Input -->
+            <div class="mb-3">
+                <label for="emailAddress" class="form-label">Email Address</label>
+                <input type="email" class="form-control w-25 " id="emailAddress">
+            </div>
+
+            <!-- Message Input -->
+            <div class="mb-3">
+                <label for="description" class="form-label">Message</label>
+                <textarea rows="4" cols="6" class="form-control w-25 " id="description"></textarea>
+            </div>
+
+            <!-- Newsletter Subscription Checkbox -->
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="newsCheckBox">
+                <label class="form-check-label" for="newsCheckBox">Subscribe me to the newsletter</label>
+            </div>
+
+            <!-- Submit Button -->
+            <button id="sendButton" type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+
+<!-- Footer section -->
+<footer id="footer">
+</footer>
+
+<!-- External scripts for jQuery, Bootstrap, and custom scripts -->
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="scripts/app.js"></script>
+</body>
+</html>
